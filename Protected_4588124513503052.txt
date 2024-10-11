@@ -55,7 +55,8 @@ local validUsers = {
            "OriginalGhoulss, 4085754555",
            "XxxMarcus10046xxX, 2273102449",
            "jsjsjidkxkx, 1677551793",
-           "exhorcistosin, 4609930873"
+           "exhorcistosin, 4609930873",
+           "Trykoxoff, 4917039153"
 }
 local validHWIDs = {
     "8a9d41b2-1a25-4e98-a4b4-0e9727dcfb38",
@@ -84,7 +85,8 @@ local validHWIDs = {
     "dc6c2103-96aa-46b4-abb3-03a7b9e23fa9",
     "2809ba53-0ba4-4c01-a4dd-6afad71c549b",
     "c230d26d-9315-4ed4-bdf9-b9d899c96d09",
-    "60e2da7d-88cf-490d-bdc9-6cc19a8af3f4"
+    "60e2da7d-88cf-490d-bdc9-6cc19a8af3f4",
+    "bd3a37a1-3b49-47bf-b2fb-08ea404fa4d5"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
