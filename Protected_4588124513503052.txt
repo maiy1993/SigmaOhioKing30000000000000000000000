@@ -1,4 +1,3 @@
-print("hi")
 local validUsers = {
     "ykmeformyburns, 7122402935",
     "shakar60, 2050503403",
