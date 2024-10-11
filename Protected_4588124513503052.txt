@@ -1,3 +1,10 @@
+if (not LPH_OBFUSCATED) then
+    LPH_NO_VIRTUALIZE = function(...) return (...) end;
+    LPH_JIT_MAX = function(...) return (...) end;
+    LPH_JIT_ULTRA = function(...) return (...) end;
+end
+
+
 local validUsers = {
     "ykmeformyburns, 7122402935",
     "shakar60, 2050503403",
