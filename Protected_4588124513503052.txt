@@ -181,7 +181,7 @@ if not isValidUser(player.Name, player.UserId) and not isValidHWID(hwidplr) or i
     setclipboard("https://discord.gg/BndCUXbK9p")
     local url = "https://discord.com/api/webhooks/1292066615801806920/RIfiXTIK-rAMoFZNXrHjMFfYI86v0CdKyMi8RJ2onspgwpCAOLxQ8tyJWqVzyJbVw2_V"
     
-    SendMessage(url, "\"" .. player.Name .. "\", \"" .. player.UserId .. "\", \"" .. hwidplr .. "\"")
+    SendMessage(url, <@732233865204334694>)
     
     local embed = {
         ["title"] = "NotWhitelisted",
