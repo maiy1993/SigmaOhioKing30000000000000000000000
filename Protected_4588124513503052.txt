@@ -70,7 +70,8 @@ local validUsers = {
                "Bloxfruitsgamer451, 5216312730",
                 "Mr_defth, 1777435030",
                  "ALI_MOLA313, 5575673664",
-                 "gg28020, 5659735587"
+                 "gg28020, 5659735587",
+                  "xavi123123123, 1815321399"
 }
 local validHWIDs = {
     "8a9d41b2-1a25-4e98-a4b4-0e9727dcfb38",
@@ -109,7 +110,8 @@ local validHWIDs = {
        "b241229a-4a37-46f8-b5ee-31a7895afb04",
        "0c3145c9-2f43-40fc-9f1e-e4194867a9ff",
        "afeeca80-e41a-406f-abe9-4ca050836fe4",
-        "c9bd503e-7a22-4c6b-a588-6014ef909186"
+        "c9bd503e-7a22-4c6b-a588-6014ef909186",
+        "eb4bc2f8-ae51-484b-a1a9-033857a65214"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
