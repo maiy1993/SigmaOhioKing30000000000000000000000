@@ -98,7 +98,8 @@ local validHWIDs = {
     "bd3a37a1-3b49-47bf-b2fb-08ea404fa4d5",
      "7298e0d2-da1a-47bd-b47e-22d4d26d95dc",
       "ca7ba23f-4107-4b91-98d2-76c9e529ad4e",
-      "6ca1998e-f54d-4ce9-9338-c9905500a779"
+      "6ca1998e-f54d-4ce9-9338-c9905500a779",
+      "f5dc52d7-7a71-435e-931e-ca0498f6850a"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
