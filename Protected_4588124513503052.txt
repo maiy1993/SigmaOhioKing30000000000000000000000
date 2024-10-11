@@ -54,7 +54,7 @@ local validUsers = {
            "uslz, 418151426",
            "OriginalGhoulss, 4085754555",
            "XxxMarcus10046xxX, 2273102449",
-           "jsjsjidkxkx, 1677551793"
+           "jsjsjidkxkx, 1677551793",
            "exhorcistosin, 4609930873"
 }
 local validHWIDs = {
