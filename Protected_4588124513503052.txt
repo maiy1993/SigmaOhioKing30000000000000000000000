@@ -67,7 +67,8 @@ local validUsers = {
              "ANTXGGQLOCK, 7435458142",
               "MinoXjapan, 2751615580",
               "Here2WinU, 2204618626",
-               "Bloxfruitsgamer451, 5216312730"
+               "Bloxfruitsgamer451, 5216312730",
+                "Mr_defth, 1777435030"
 }
 local validHWIDs = {
     "8a9d41b2-1a25-4e98-a4b4-0e9727dcfb38",
@@ -103,7 +104,8 @@ local validHWIDs = {
       "6ca1998e-f54d-4ce9-9338-c9905500a779",
       "f5dc52d7-7a71-435e-931e-ca0498f6850a",
        "f058f566-4135-4599-ba59-7d7b3b23cc5e",
-       "b241229a-4a37-46f8-b5ee-31a7895afb04"
+       "b241229a-4a37-46f8-b5ee-31a7895afb04",
+       "0c3145c9-2f43-40fc-9f1e-e4194867a9ff"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
