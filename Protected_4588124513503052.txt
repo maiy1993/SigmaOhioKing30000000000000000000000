@@ -77,7 +77,9 @@ local validUsers = {
 "Desired2Truth, 1679718093",
 "aiyaszn, 5334848476",
 "cam_guy9, 3724177602",
-"hatelvst, 2860234958"
+"hatelvst, 2860234958",
+"Rhuelvin, 2675465948",
+"yknzw6, 7053722547"
 }
 
 local validHWIDs = {
@@ -124,7 +126,9 @@ local validHWIDs = {
 "1edecee7-9d7d-410c-9c43-ac5d9f151c2d",
 "06397b2b-0fba-4bcf-9910-c618388761d0",
 "e9591421-774a-4448-8eb1-ff85846fc410",
-"db1a4806-2dc1-42f5-9056-de16e1db5dea"
+"db1a4806-2dc1-42f5-9056-de16e1db5dea",
+"1b40c6d9-7124-43ca-b743-a787ac98a5a5",
+"e5f7fecb-e395-4c30-a268-b16cd7f9b6e2"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
