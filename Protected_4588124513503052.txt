@@ -79,7 +79,8 @@ local validUsers = {
 "cam_guy9, 3724177602",
 "hatelvst, 2860234958",
 "Rhuelvin, 2675465948",
-"yknzw6, 7053722547"
+"yknzw6, 7053722547",
+"frvlpnz, 2918593482"
 }
 
 local validHWIDs = {
@@ -128,7 +129,8 @@ local validHWIDs = {
 "e9591421-774a-4448-8eb1-ff85846fc410",
 "db1a4806-2dc1-42f5-9056-de16e1db5dea",
 "1b40c6d9-7124-43ca-b743-a787ac98a5a5",
-"e5f7fecb-e395-4c30-a268-b16cd7f9b6e2"
+"e5f7fecb-e395-4c30-a268-b16cd7f9b6e2",
+"efecad89-6bb9-4c74-8656-6727b5fe69fe"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
