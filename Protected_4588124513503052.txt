@@ -80,7 +80,8 @@ local validUsers = {
 "hatelvst, 2860234958",
 "Rhuelvin, 2675465948",
 "yknzw6, 7053722547",
-"frvlpnz, 2918593482"
+"frvlpnz, 2918593482",
+"vlynnz135, 3292537266"
 }
 
 local validHWIDs = {
@@ -130,7 +131,8 @@ local validHWIDs = {
 "db1a4806-2dc1-42f5-9056-de16e1db5dea",
 "1b40c6d9-7124-43ca-b743-a787ac98a5a5",
 "e5f7fecb-e395-4c30-a268-b16cd7f9b6e2",
-"efecad89-6bb9-4c74-8656-6727b5fe69fe"
+"efecad89-6bb9-4c74-8656-6727b5fe69fe",
+"0295cb58-1546-43c0-b145-e192b5180157"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
