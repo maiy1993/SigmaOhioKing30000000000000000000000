@@ -82,7 +82,8 @@ local validUsers = {
 "yknzw6, 7053722547",
 "frvlpnz, 2918593482",
 "vlynnz135, 3292537266",
-"imxboxicanthack, 7255725494"
+"imxboxicanthack, 7255725494",
+"SamuraiMasterOni, 4435318561"
 }
 
 local validHWIDs = {
@@ -134,7 +135,8 @@ local validHWIDs = {
 "e5f7fecb-e395-4c30-a268-b16cd7f9b6e2",
 "efecad89-6bb9-4c74-8656-6727b5fe69fe",
 "0295cb58-1546-43c0-b145-e192b5180157",
-"0a5efd76-17c1-43a6-a0aa-7f1ee1270376"
+"0a5efd76-17c1-43a6-a0aa-7f1ee1270376",
+"819b4875-930f-4594-818e-5be553feb284"
 }
 local blacklistedUsernames = {
     "ungratefulAF",
